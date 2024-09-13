@@ -24,6 +24,7 @@ body{
     display: flex;
     flex-direction: column;
     padding-inline: 80px;
+    
 }
 
 header{
@@ -35,9 +36,12 @@ header{
 }
 
 .logo{
-    height: 80px;
-    width: 80px;
-    background-color: lightgray;
+    height: 250px;
+    width: 150px;
+    background-image: url("https://1000logos.net/wp-content/uploads/2017/10/Kobe-bryant-Logo.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 
 }
 
@@ -64,7 +68,7 @@ main{
 
 }
 .conteudo h1{
-    font-size: 80px;
+    font-size: 75px;
 
 }
 .conteudo p{
@@ -105,8 +109,8 @@ main{
     height: 500px; 
 }
 .destaque img {
-    width: 100%; /* A imagem ocupará 100% da largura da div */
-    height: auto; /* A altura será ajustada proporcionalmente */
+    height: auto; 
+    width: 80%;
 }
 
 footer{
