@@ -55,7 +55,6 @@ main{
 
 .conteudo{
     width: 50%;
-    background-color: tomato;
     padding-right: 128px;
     display: flex;
     flex-direction: column;
@@ -88,12 +87,32 @@ main{
     border-radius: 50%;
     background-color: lightgray;
 }
+.social-icon {
+    height: 96px;
+    width: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    border-radius: 50%;
+    font-size: 48px;
+    color: #000;
+}
 .destaque{
-    width: 50%;
-    background-color: blueviolet;
+    background-size: cover; 
+    background-position: center; 
+    width: 100%; 
+    height: 500px; 
+}
+.destaque img {
+    width: 100%; /* A imagem ocupará 100% da largura da div */
+    height: auto; /* A altura será ajustada proporcionalmente */
 }
 
 footer{
     height: 100px;
-    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: lightgrey;
 }
