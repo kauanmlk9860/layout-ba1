@@ -1,39 +1,46 @@
-    /*RESET */
-
+/* RESET*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
+
 a{
     text-decoration: none;
-     color: inherit;
+    color: inherit;
+
 }
+
 ul, ol, li{
-    list-style-type: none ;
+    list-style: none;
+
 }
 
-    /* FIM RESET */
+/* Fim do Reset */
 
-body {
+body{
     height: 100vh;
-    Display: flex;
+    display: flex;
     flex-direction: column;
+    padding-inline: 80px;
 }
 
 header{
     height: 200px;
-    Background-color: lightBLUE;
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
-.logo {
-    height: 64px;
-    width: 64px;
+
+.logo{
+    height: 80px;
+    width: 80px;
     background-color: lightgray;
-    align-items: center;
+
 }
+
 .menu ul{
     display: flex;
     gap: 32px;
@@ -42,18 +49,51 @@ header{
 
 main{
     flex-grow: 1;
-    background-color: yellow;
     display: flex;
+
 }
+
 .conteudo{
     width: 50%;
     background-color: tomato;
+    padding-right: 128px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+
+}
+.conteudo h1{
+    font-size: 80px;
+
+}
+.conteudo p{
+    font-size: 48px;
+}
+.conteudo button{
+    height: 64px;
+    width: 300px;
+    font-size: 32px;
+    background-color: black;
+    color: white;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+}
+.social div{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: lightgray;
 }
 .destaque{
     width: 50%;
-    background-color: lightgrey;
+    background-color: blueviolet;
 }
+
 footer{
     height: 100px;
-    background-color: rgb(250, 210, 231);
+    background-color: brown;
 }
