@@ -20,18 +20,31 @@ body {
     Display: flex;
     flex-direction: column;
 }
-main{
-    flex-grow: 100px;
-    background-color: pink;
-}
 
 header{
     height: 200px;
-    Background-color: lightblue;
+    Background-color: blue;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    height: 64px;
+    width: 64px;
+    background-color: lightgray;
+    align-items: center;
+}
+.menu ul{
+    display: flex;
+    gap: 32px;
+    font-size: 32px;
 }
 
+main{
+    flex-grow: 100px;
+    background-color: yellow;
+}
 
 footer{
     height: 100px;
-    background-color: lightgoldenrodyellow;
+    background-color: rgb(250, 210, 231);
 }
